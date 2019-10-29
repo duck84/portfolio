@@ -29,9 +29,10 @@ a {
     line-height: 90px;
 }
 
-#background, #family, #work {
+#background, #family, #projects {
     margin-top: 5%;
 }
+
 
 #background-content, #family-content {
     display: flex;
