@@ -29,7 +29,7 @@ a {
     line-height: 90px;
 }
 
-#bio, #family, #projects {
+#bio, #family, #projects, #contact{
     margin: 5% 5% 5% 5%;
 }
 
@@ -73,3 +73,4 @@ footer {
 #bio-content{
     margin: auto;
 }
+

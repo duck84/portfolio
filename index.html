@@ -17,6 +17,7 @@
             <a href="#bio" class="nav-link">Bio</a>
             <a href="#family" class="nav-link">Family</a>
             <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
         <nav>
     </header>
     <div class="jumbtron">
@@ -62,35 +63,53 @@
     <div id="projects">
         <h2>Projects</h2>
         <div class="row">
-        <div class="col-md-4 d-flex align-items-stretch">
-            <div class="card mb-4 shadow-sm">
-                <img src="./img/Tower_of_Hanoi.jpeg" alt="A picture of three towers with six discs">
-                <div class="card-body">
-                    <p>A machine learning project that uses reinforced learning algorithms to teach an agent how to play the tower of Hanoi.</p>
-                    <button id="tower" class="btn btn-sm btn-outline-secondary" type="view">View</button>
+            <div class="col-md-4 d-flex align-items-stretch">
+                <div class="card mb-4 shadow-sm">
+                    <img src="./img/Tower_of_Hanoi.jpeg" alt="A picture of three towers with six discs">
+                    <div class="card-body">
+                        <p>A machine learning project that uses reinforced learning algorithms to teach an agent how to play the tower of Hanoi.</p>
+                        <button id="tower" class="btn btn-sm btn-outline-secondary" type="view">View</button>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-                <img src="./img/Shakespeare.jpg" alt="">
-                <div class="card-body">
-                    <p>A chat bot built in the Rust programming language that uses the Project Guttenburg library. Allows the user to talk to both major and minor characters from Romeo and Juliet, Hamlet, and several more.</p>
-                    <button id="bot" class="btn btn-sm btn-outline-secondary" type="view">View</button>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="./img/Shakespeare.jpg" alt="">
+                    <div class="card-body">
+                        <p>A chat bot built in the Rust programming language that uses the Project Guttenburg library. Allows the user to talk to both major and minor characters from Romeo and Juliet, Hamlet, and several more.</p>
+                        <button id="bot" class="btn btn-sm btn-outline-secondary" type="view">View</button>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-                <img src="./img/Dijkstra.jpg" alt="">
-                <div class="card-body">
-                    <p>A final term paper that implmented Dijstra's and Primm's algorithms to find the shortest path and minimum spanning trees. I used Python and Networkx and tested the different time complexities by varying the data structures that stored the paths.</p>
-                    <button id="algorithm" class="btn btn-sm btn-outline-secondary" type="view">View</button>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="./img/Dijkstra.jpg" alt="">
+                    <div class="card-body">
+                        <p>A final term paper that implmented Dijstra's and Primm's algorithms to find the shortest path and minimum spanning trees. I used Python and Networkx and tested the different time complexities by varying the data structures that stored the paths.</p>
+                        <button id="algorithm" class="btn btn-sm btn-outline-secondary" type="view">View</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <div id="contact">
+        <h2>Contact</h2>
+        <div class="row">
+            <div class="col-md-3">
+                First Name: <input type="text" name="fname" id="fname"><br>
+            </div>
+            <div class="col-md-3">
+                Last name: <input type="text" name="lname" id="lname"><br>
+            </div>
+            <div class="col-md-1">
+                <input type="submit" value="Submit" id="submit">
+            </div>
+            <div class="col-md-1">
+                <input type="reset" value="Reset" id="reset">
+            </div>
+        </div>
     </div>
+
     <footer>
         Copywrite &copy Mike McGrath 2019
     </footer>
