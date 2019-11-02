@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-dark bg-dark shadow-sm">
+        <nav class="navbar fixed-top text-center navbar-dark bg-dark shadow-sm">
             <a href="#bio" class="nav-link">Bio</a>
             <a href="#family" class="nav-link">Family</a>
             <a href="#projects" class="nav-link">Projects</a>
@@ -21,8 +21,8 @@
         <nav>
     </header>
     <div class="jumbtron">
-        <h1 class="display-2">Mike McGrath</h1>
-        <h3 id="display-4">Software Engineer</h3>
+        <h1 class="display-3">Mike McGrath</h1>
+        <h3 class="display-5">Software Engineer</h3>
     </div>
     <div id="bio">
         <h2>Bio</h2>
@@ -31,7 +31,7 @@
                 <img id="portrait" src="./img/Portrait.jpg" alt="Picture of the website author">
             </div>
             <div id="bio-copy" class="col-md-8">
-                <p>I Mike and I believe in making mistakes and embracing struggle. I've gone back
+                <p id="bio-text" class="align-middle">I believe in making mistakes and embracing struggle. I've gone back
                     to grad school twice, found a dream job and left it, and have three kids under 
                     the age of six! Life is not short if you keep yourself challenged.
                 </p>
@@ -74,7 +74,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <img src="./img/Shakespeare.jpg" alt="">
+                    <img src="./img/Shakespeare.jpg" alt="A famous painting of Shakespeare">
                     <div class="card-body">
                         <p>A chat bot built in the Rust programming language that uses the Project Guttenburg library. Allows the user to talk to both major and minor characters from Romeo and Juliet, Hamlet, and several more.</p>
                         <button id="bot" class="btn btn-sm btn-outline-secondary" type="view">View</button>
@@ -83,7 +83,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <img src="./img/Dijkstra.jpg" alt="">
+                    <img src="./img/Dijkstra.jpg" alt="picture of a graph modeling the dijkstra algorithm">
                     <div class="card-body">
                         <p>A final term paper that implmented Dijstra's and Primm's algorithms to find the shortest path and minimum spanning trees. I used Python and Networkx and tested the different time complexities by varying the data structures that stored the paths.</p>
                         <button id="algorithm" class="btn btn-sm btn-outline-secondary" type="view">View</button>
@@ -101,10 +101,13 @@
             <div class="col-md-3">
                 Last name: <input type="text" name="lname" id="lname"><br>
             </div>
+            <div class="col-md-3">
+                Email: <input type="text" name="email" id="email"><br>
+            </div>
             <div class="col-md-2 contract-buttons">
                 <input type="submit" value="Submit" id="submit">
             </div>
-            <div class="col-md-2 contract-buttons">
+            <div class="col-md-1 contract-buttons">
                 <input type="reset" value="Reset" id="reset">
             </div>
         </div>

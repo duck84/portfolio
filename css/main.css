@@ -6,7 +6,7 @@
 
 nav.navbar {
     text-align: center;
-    justify-content: left;
+    padding: 0 30% 0 30%;
 }
 
 h1, h2, h3 {
@@ -17,6 +17,10 @@ a {
     text-decoration: none;
     color: black;
     margin: 0 15px 0 15px;
+}
+
+.display-3{
+    padding-top: 5%;
 }
 
 .jumbtron{
@@ -33,26 +37,13 @@ a {
     padding: 5% 5% 5% 5%;
 }
 
-#bio{
-    background-color: #2fffe7;
+#family, #contact{
+    background-color: #cddbe7;
 }
 
-#family{
-    background-color: #009382;
+#bio, #projects{
+    background-color: #456f93;
 }
-
-#projects{
-    background-color: #2fffe7;
-}
-
-#contact{
-    background-color: #009382;
-}
-
-.card{
-    background-color: #005248;
-}
-
 
 #bio-content, #family-content {
     display: flex;
@@ -67,14 +58,21 @@ img {
     border-radius: 10px;
 }
 
+#finn{
+    text-align: center;
+}
+
 figcaption {
     text-align: center;
     margin-top: 10px;
 }
 
 footer {
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
+    background-color: #172531;
+    color: white;
+    padding: 10px 0 10px 0;
 }
 
 .card img{
@@ -84,19 +82,27 @@ footer {
 #portrait {
     border-radius: 50%;
     object-fit: cover;
+    height: 250px;
 }
 
 #bio-copy p{
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 #bio-content{
     margin: auto;
 }
 
-#submit, #reset{
-    text-align: center;
+#submit, #reset, #email{
     position: absolute;
     bottom: 0px;
 }
 
+#copywrite{
+    color: white;
+}
+
+#bio-text   {
+    font-size: 22px;
+    color: white;
+}

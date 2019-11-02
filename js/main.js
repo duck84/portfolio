@@ -4,7 +4,8 @@ const buttonAlgorithm = document.querySelector('button[id="algorithm"]');
 const buttonSubmit = document.getElementById('submit');
 const buttonReset = document.getElementById('reset');
 const inputFirst = document.getElementById('fname');
-const infputLast = document.getElementById('lname');
+const inputLast = document.getElementById('lname');
+const inputEmail = document.getElementById('email');
 
 buttonTower.addEventListener('click', event => {
     window.open("https://github.com/duck84/Machine-Learning")
@@ -22,11 +23,13 @@ buttonAlgorithm.addEventListener('click', event => {
 
 buttonSubmit.addEventListener('click', event => {
     inputFirst.value='';
-    infputLast.value='';
+    inputLast.value='';
+    inputEmail.value='';
     alert("Thanks for contacting me! I'll get right back to you.");
 })
 
 buttonReset.addEventListener('click', event => {
     inputFirst.value='';
-    infputLast.value='';
+    inputLast.value='';
+    inputEmail.value='';
 })
