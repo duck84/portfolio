@@ -1,6 +1,8 @@
 # Portfolio
 ## Class portfolio for Full Stack
 
+Location: https://duck84.github.io/portfolio/
+
 
 The overall design of the project was an evolving experience. I did not have a
 specific goal, but instead tried things out and let the design evolve. This made
@@ -41,3 +43,9 @@ design to a sleek design and think it worked to an extent. I found it really har
 to not have the website look like something from the 90's and went through several
 different color schemes. Something that I found interesting is that less is more for
 color and keeping it simple often works best.
+
+After deploying the website, I would also working on making the initial loading time
+faster. The picture have not been optimized to load quickly and I could also figure
+out other ways to make the page load faster. It is also interesting to see that it is 
+slighly different looking then my development environment, but still looks overall the
+same. 
